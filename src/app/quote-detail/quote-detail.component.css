@@ -1,0 +1,51 @@
+#c1{
+    width:500px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 50px;
+}
+.e1{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+#del{
+    background-color: rgb(201, 49, 49);
+    color: white;
+    width: 150px;
+    padding: 8px;
+    border-style: none;
+}
+.votes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+.btn1{
+    background-color: mediumturquoise;
+    color: white;
+    padding: 10px;
+    border-style: none;
+    margin-right: 10px ;
+    width: 100px;
+}
+.btn2{
+    background-color: rgb(201, 49, 49);
+    color: white;
+    padding: 10px;
+    border-style: none;
+    width: 100px;
+}
+.time{
+    text-align: end;
+}
+#bb{
+    background-color: mediumturquoise;
+    color: white;
+    padding: 8px;
+    border-style: none;
+    margin-right: 10px ;
+    width: 200px;
+}
