@@ -1,0 +1,15 @@
+#c11{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.edd{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.edd1{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
