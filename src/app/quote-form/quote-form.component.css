@@ -1,0 +1,25 @@
+form{
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    background-color: transparent;
+    padding: 50px;
+    color: white;
+    
+}
+.edd1{
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#f11{
+    padding: 50px;
+}
+.btn1{
+    background-color: mediumturquoise;
+    color: white;
+    padding: 10px;
+    border-style: none;
+    margin-right: 10px ;
+    width: 100px;
+}
