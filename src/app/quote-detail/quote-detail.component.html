@@ -1,1 +1,25 @@
-<p>quote-detail works!</p>
+<p class="e1">Quote</p>
+<div class="card" id ="c1">
+<p>{{quote.description}}</p>
+<div class="votes">
+    <p class="ed">upvotes :{{likes}}</p>
+    <p class="ed1">downvotes :{{dislikes}}</p>
+</div>
+<div class="time">
+    <p>{{quote.datecount | datecount}} days ago</p>
+</div>
+<div class="buttons">
+    <button class="btn1" (click)= "numberOfLikes(likes)">upvote</button>
+    <button  class="btn2"(click)= "numberOfDislikes(dislikes)">downvote</button>
+</div>
+<br>
+<button (click)="toggle()" id="bb">Show More</button>
+<br>
+<div *ngIf="showDetails">
+<p>Posted by: {{quote.name}}</p>
+<p>Author: {{quote.author}}</p>
+</div>
+<button (click)= 'quoteDelete(true)' id="del">Delete Quote</button>
+</div>
+
+
