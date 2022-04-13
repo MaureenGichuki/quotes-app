@@ -7,7 +7,7 @@
         <div class="rw1">
        
           <div *ngFor='let quote of quotes;let i = index'>
-            <app-quote-detail  [quote]='quote' (isDone) = 'deleteQuote($event,i)'></app-quote-detail>
+            <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
             </div>
           </div>
         </div>
